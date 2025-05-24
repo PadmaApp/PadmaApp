@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PADMA APP | Civil Construction Materials</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .testimonial-marquee {
+      background: #f4f4f4;
+      padding: 1rem;
+      margin-top: 2rem;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .testimonial-marquee p {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 20s linear infinite;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+    .logo {
+      height: 80px;
+      margin-right: 1rem;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="PADMA APP Logo" class="logo">
+    <h1>PADMA APP</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Reliable Partner in Civil Infrastructure</h2>
+      <p>Supplying materials, offering engineering consultancy, and executing PWD projects across India.</p>
+      <a href="products.html" class="btn">View Products</a>
+    </section>
+
+    <section class="highlights">
+      <div class="card">
+        <h3>Construction Materials</h3>
+        <p>HSFG Bolts, TMT Bars, Bearings, Expansion Joints, Survey and Safety Equipment.</p>
+      </div>
+      <div class="card">
+        <h3>Bridge Services</h3>
+        <p>Bridge construction, rehabilitation, expansion joint replacement, bearing installation.</p>
+      </div>
+      <div class="card">
+        <h3>Expert Consultancy</h3>
+        <p>PWD certified consultants with deep experience in civil engineering.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="testimonial-marquee">
+    <p>"Excellent service and high-quality products!" - Rakesh Doley (Assam) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+       "Trusted team and on-time delivery every time." - Ngathingkhui Zimik (Manipur) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+       "Professional support throughout our project!" - Tashi Dorjee (Arunachal Pradesh)</p>
+  </div>
+
+  <footer>
+    <p>Contact: Kamal Agarwal | +91-98540-90923 | padmaapp25@gmail.com</p>
+    <p>&copy; 2025 PADMA APP. All rights reserved.</p>
+  </footer>
+</body>
+</html>
