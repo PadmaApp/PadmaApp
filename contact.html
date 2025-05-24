@@ -1,30 +1,45 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us - PADMA APP</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Contact Us</h1>
-  <p>We’d love to hear from you!</p>
-  <form action="https://formspree.io/f/mwkgrbpg" method="POST">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+  <header><h1>Contact Us</h1></header>
+  
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="_replyto" required><br><br>
+  <main>
+    <div class="card">
+      <form action="https://formspree.io/f/mwkgrbpg" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
 
-    <label for="phone">Phone:</label><br>
-    <input type="text" id="phone" name="phone"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="_replyto" required><br><br>
 
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone"><br><br>
 
-    <button type="submit">Submit</button>
-  </form>
-  <p><strong>Phone:</strong> +91-98540-90923</p>
-  <p><strong>Email:</strong> padmaapp25@gmail.com</p>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>Contact: Kamal Agarwal | +91-98540-90923 | padmaapp25@gmail.com</p>
+  </footer>
 </body>
 </html>
