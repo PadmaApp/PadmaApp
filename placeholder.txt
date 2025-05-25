@@ -1,0 +1,1 @@
+This placeholder simulates the full site content after kernel reset.
